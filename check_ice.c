@@ -1,5 +1,5 @@
 /*
- * check_ice: Nagios plugin to check if a ICE or Shoucast stream is up.
+ * check_ice: Nagios plugin to check if a ICE or Shoutcast stream is up.
  * Usage:check_ice -H host -p port [-m mount_point] Example: check_ice -H
  * stream.icecast.org -p 8000 -m /foobar
  * 
@@ -191,7 +191,7 @@ readline(fip, buffer)
 
 banner()
 {
-	printf("check_ice: Nagios plugin to check if a ICE or Shoucast stream is up.\n");
+	printf("check_ice: Nagios plugin to check if a ICE or Shoutcast stream is up.\n");
 	printf("Usage:check_ice -H host -p port [-m mount_point]\n");
 	printf("  Example: check_ice -H stream.icecast.org -p 8000 -m /foobar\n");
 	return;
